@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Record Sounds View Controller-->
+        <!--Record your voice-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,7 +42,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ifc-fE-AQl" firstAttribute="top" secondItem="Qr7-MN-TVx" secondAttribute="bottom" constant="19" id="2VR-bT-hUM"/>
                             <constraint firstItem="9aX-Qf-kNk" firstAttribute="centerX" secondItem="Ifc-fE-AQl" secondAttribute="centerX" id="V5W-tM-Hjr"/>
@@ -52,7 +52,7 @@
                             <constraint firstItem="Qr7-MN-TVx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xpA-32-11w"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="I0g-Yd-zq3"/>
+                    <navigationItem key="navigationItem" title="Record your voice" id="I0g-Yd-zq3"/>
                     <connections>
                         <outlet property="recordButton" destination="Qr7-MN-TVx" id="mjq-B6-5Ry"/>
                         <outlet property="recordingLabel" destination="Ifc-fE-AQl" id="ihv-QP-HnV"/>
@@ -147,7 +147,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V5j-9o-W6a"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
                             <constraint firstItem="uma-gf-y80" firstAttribute="leading" secondItem="V5j-9o-W6a" secondAttribute="leading" id="OgT-ZA-PrJ"/>
                             <constraint firstItem="uma-gf-y80" firstAttribute="top" secondItem="V5j-9o-W6a" secondAttribute="top" id="PVO-ck-VlN"/>
@@ -180,6 +180,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="te0-mN-Ugt">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -200,8 +201,8 @@
         <image name="Reverb" width="90" height="90"/>
         <image name="Slow" width="90" height="90"/>
         <image name="Stop" width="155" height="155"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
